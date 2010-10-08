@@ -1,3 +1,33 @@
+#leftbar {
+	width: 75px;
+	min-height: 550px;
+	background-color: yellow;
+	float: left;
+}
+
+#rightbar {
+	width: 75px;
+	min-height: 550px;
+	background-color: yellow;
+	float: right;
+}
+
 .container {
-	width: 960px;
+	margin: 0 auto;
+	width: 950px;
+}
+
+#header {
+	background-color: red;
+	margin: 0 75px;
+}
+
+#content {
+	min-height: 550px;
+	background-color: green;
+}
+
+#footer {
+	background-color: gray;
+	margin: 0 75px;
 }

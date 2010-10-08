@@ -36,7 +36,7 @@
 		<meta name="viewport" content="width=960" />
 
 		<?php // Top Up Image Gallery (.top_up) ?>
-		<script type="text/javascript" src="http://gettopup.com/releases/latest/top_up-min.js"></script>
+		<!-- <script type="text/javascript" src="http://gettopup.com/releases/latest/top_up-min.js"></script> -->
 		
 	<?php endif ?>
 
@@ -52,6 +52,10 @@
 				<li> <a href="/contact">Contact</a> </li>
 				<li> <a href="/etc">Etc</a> </li>
 			</div>
+		</div>
+		<div id="leftbar">
+		</div>
+		<div id="rightbar">
 		</div>
 		<div id="content">
 			<?php // Content ?>
