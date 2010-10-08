@@ -47,10 +47,14 @@
 	<div class="container">
 		<div id="header">
 			<div id="nav">
-				<li> <a href="/">Home</a> </li>
-				<li> <a href="/gallery">Gallery</a> </li>
-				<li> <a href="/contact">Contact</a> </li>
-				<li> <a href="/etc">Etc</a> </li>
+				<ul class="navlist">
+				<li><a href="/">Home</a></li>
+				<li><a href="/contact">Contact</a></li>
+				<li><a href="/">Artistid</a></li>
+				<li><a href="/gallery">E-pood</a></li>
+				<li><a href="/contact">Koolitused</a></li>
+				<li><a href="/etc">Partnerid</a></li>
+				</ul>
 			</div>
 		</div>
 		<div id="leftbar">

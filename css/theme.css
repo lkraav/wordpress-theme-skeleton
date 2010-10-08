@@ -1,3 +1,8 @@
+.container {
+	margin: 10px auto;
+	width: 950px;
+}
+
 #leftbar {
 	width: 75px;
 	min-height: 550px;
@@ -12,14 +17,37 @@
 	float: right;
 }
 
-.container {
-	margin: 0 auto;
-	width: 950px;
+#header {
+	height: 150px;
+	background-color: red;
+	padding: 0 75px;
 }
 
-#header {
-	background-color: red;
-	margin: 0 75px;
+.navlist {
+	float: left;
+	padding: 0 10px;
+	list-style-type: none;
+	background-color: #036;
+}
+
+.navlist li {
+	display: inline;
+}
+
+.navlist li a {
+	float: left;
+	width: 130px;
+	margin: 0 auto;
+	padding: 1em 0;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	background-color: #036;
+}
+
+.navlist li a:hover {
+	background-color: #369;
+	color: #fff;
 }
 
 #content {
@@ -28,6 +56,7 @@
 }
 
 #footer {
+	height: 75px;
 	background-color: gray;
-	margin: 0 75px;
+	padding: 0 75px;
 }
