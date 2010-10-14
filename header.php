@@ -45,36 +45,40 @@
 </head>
 <body <?php body_class(); ?>>
 	<div class="container">
+		<p class="dimensions">75x176</p>
 		<div id="header">
 			<div id="header-logo">
-			</div>
-			<div id="header-search">
-			</div>
-			<div id="header-map">
-			</div>
-			<div id="header-banner">
-				<p>Eye ist ein banner, jawohl?</p>
+				<p class="dimensions">192x128</p>
 			</div>
 			<div id="header-extbuttons">
-				<ul class="extnavlist">
+				<ul class="nav-list-ext">
+				<li><a href="/">48x128</a></li>
 				<li><a href="http://youtube.com/stereotunnel"><img src="<?php bloginfo('template_directory'); ?>/img/youtube_icon.png" /></a></li>
 				<li><a href="http://twitter.com/stereotunnel"><img src="<?php bloginfo('template_directory'); ?>/img/twitter_icon.png" /></a></li>
 				</ul>
 			</div>
+			<div id="header-banner">
+				<p>Eye ist ein banner, jawohl? 560x128</p>
+			</div>
 			<div id="nav">
-				<ul class="navlist">
-				<li><a href="/">Home</a></li>
+				<ul class="nav-list">
+				<li><a href="/">96x48</a></li>
 				<li><a href="/contact">Contact</a></li>
 				<li><a href="/">Artistid</a></li>
 				<li><a href="/gallery">E-pood</a></li>
 				<li><a href="/contact">Koolitused</a></li>
 				<li><a href="/etc">Partnerid</a></li>
 				</ul>
+				<div id="nav-search">
+					<p>204x48</p>
+				</div>
 			</div>
 		</div>
 		<div id="leftbar">
+			<p>75x374</p>
 		</div>
 		<div id="rightbar">
+			<p>75x374</p>
 		</div>
 		<div id="content">
 			<?php // Content ?>
