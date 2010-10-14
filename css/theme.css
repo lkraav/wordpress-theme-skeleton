@@ -26,14 +26,14 @@
 
 #header-logo {
 	float: left;
-	width: 192px;
+	width: 128px;
 	height: 128px;
 	background-color: cyan;
 }
 
 #header-banner {
 	float: left;
-	width: 560px;
+	width: 624px;
 	height: 128px;
 	background-color: #fff;
 }

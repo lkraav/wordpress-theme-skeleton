@@ -48,7 +48,7 @@
 		<p class="dimensions">75x176</p>
 		<div id="header">
 			<div id="header-logo">
-				<p class="dimensions">192x128</p>
+				<p class="dimensions">128x128</p>
 			</div>
 			<div id="header-extbuttons">
 				<ul class="nav-list-ext">
@@ -58,7 +58,7 @@
 				</ul>
 			</div>
 			<div id="header-banner">
-				<p>Eye ist ein banner, jawohl? 560x128</p>
+				<p>Eye ist ein banner, jawohl? 624x128</p>
 			</div>
 			<div id="nav">
 				<ul class="nav-list">
