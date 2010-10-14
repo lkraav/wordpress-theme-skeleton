@@ -46,6 +46,21 @@
 <body <?php body_class(); ?>>
 	<div class="container">
 		<div id="header">
+			<div id="header-logo">
+			</div>
+			<div id="header-search">
+			</div>
+			<div id="header-map">
+			</div>
+			<div id="header-banner">
+				<p>Eye ist ein banner, jawohl?</p>
+			</div>
+			<div id="header-extbuttons">
+				<ul class="extnavlist">
+				<li><a href="http://youtube.com/stereotunnel"><img src="<?php bloginfo('template_directory'); ?>/img/youtube_icon.png" /></a></li>
+				<li><a href="http://twitter.com/stereotunnel"><img src="<?php bloginfo('template_directory'); ?>/img/twitter_icon.png" /></a></li>
+				</ul>
+			</div>
 			<div id="nav">
 				<ul class="navlist">
 				<li><a href="/">Home</a></li>
