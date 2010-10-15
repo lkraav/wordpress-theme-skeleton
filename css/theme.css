@@ -21,7 +21,6 @@
 #header {
 	height: 176px;
 	background-color: red;
-	padding: 0 75px;
 }
 
 #header-logo {
@@ -33,7 +32,7 @@
 
 #header-banner {
 	float: left;
-	width: 624px;
+	width: 774px;
 	height: 128px;
 	background-color: #fff;
 }
@@ -75,7 +74,6 @@
 
 .nav-list {
 	float: left;
-	padding: 0 10px;
 	list-style-type: none;
 	background-color: #036;
 	height: 48px;
@@ -87,8 +85,9 @@
 
 .nav-list li a {
 	float: left;
-	width: 96px;
-	padding: 1em 0;
+	width: 121px;
+	height: 20px;
+	padding: 14px 0;
 	text-align: center;
 	text-decoration: none;
 	color: #fff;
@@ -102,7 +101,7 @@
 
 #nav-search {
 	float: left;
-	width: 204px;
+	width: 224px;
 	height: 48px;
 	background: lightgray url('../img/icon-48x48-magnifying_glass.png') no-repeat;
 }
@@ -113,7 +112,7 @@
 }
 
 #footer {
-	height: 96px;
+	height: 160px;
 	background-color: gray;
 }
 
@@ -129,8 +128,9 @@
 
 .foot-nav-list li a {
 	float: left;
-	width: 260px;
-	padding: 0.25em 0;
+	width: 310px;
+	height: 20px;
+	padding: 10px 0;
 	text-align: center;
 	text-decoration: none;
 	color: #fff;

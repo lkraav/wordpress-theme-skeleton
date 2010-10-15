@@ -45,7 +45,6 @@
 </head>
 <body <?php body_class(); ?>>
 	<div class="container">
-		<p class="dimensions">75x176</p>
 		<div id="header">
 			<div id="header-logo">
 				<p class="dimensions">128x128</p>
@@ -58,11 +57,11 @@
 				</ul>
 			</div>
 			<div id="header-banner">
-				<p>Eye ist ein banner, jawohl? 624x128</p>
+				<p>Eye ist ein banner, jawohl? 774x128</p>
 			</div>
 			<div id="nav">
 				<ul class="nav-list">
-				<li><a href="/">96x48</a></li>
+				<li><a href="/">121x48</a></li>
 				<li><a href="/contact">Contact</a></li>
 				<li><a href="/">Artistid</a></li>
 				<li><a href="/gallery">E-pood</a></li>
@@ -70,15 +69,9 @@
 				<li><a href="/etc">Partnerid</a></li>
 				</ul>
 				<div id="nav-search">
-					<p>204x48</p>
+					<p>224x48</p>
 				</div>
 			</div>
-		</div>
-		<div id="leftbar">
-			<p>75x374</p>
-		</div>
-		<div id="rightbar">
-			<p>75x374</p>
 		</div>
 		<div id="content">
 			<?php // Content ?>
