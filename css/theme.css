@@ -119,6 +119,10 @@ input#search {
 	margin: .67em 0;
 }
 
+.meat p {
+	margin: 1.12em 0;
+}
+
 #footer {
 	height: 160px;
 	border-top: 1px grey ridge;
