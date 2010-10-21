@@ -47,29 +47,28 @@
 	<div class="container">
 		<div id="header">
 			<div id="header-logo">
-				<p class="dimensions">128x128</p>
+				<a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_directory'); ?>/img/stereotunnel-logo-135x128.png" /></a>
 			</div>
 			<div id="header-extbuttons">
-				<ul class="nav-list-ext">
-				<li><a href="/">48x128</a></li>
-				<li><a href="http://youtube.com/stereotunnel"><img src="<?php bloginfo('template_directory'); ?>/img/youtube_icon.png" /></a></li>
-				<li><a href="http://twitter.com/stereotunnel"><img src="<?php bloginfo('template_directory'); ?>/img/twitter_icon.png" /></a></li>
-				</ul>
+				<?php wp_nav_menu(array(
+					'container' => '',
+					'menu' => 'ExtNav',
+					'menu_class' => '',
+					'depth' => 1
+				)); ?>
 			</div>
 			<div id="header-banner">
-				<p>Eye ist ein banner, jawohl? 774x128</p>
+				<p>Eye ist ein banner, jawohl? 727x128</p>
 			</div>
-			<div id="nav">
-				<ul class="nav-list">
-				<li><a href="/">121x48</a></li>
-				<li><a href="/contact">Contact</a></li>
-				<li><a href="/">Artistid</a></li>
-				<li><a href="/gallery">E-pood</a></li>
-				<li><a href="/contact">Koolitused</a></li>
-				<li><a href="/etc">Partnerid</a></li>
-				</ul>
+			<div id="main-nav">
+				<?php wp_nav_menu(array(
+					'container' => '',
+					'menu' => 'MainNav',
+					'menu_class' => '',
+					'depth' => 1
+				)); ?>
 				<div id="nav-search">
-					<p>224x48</p>
+					<?php get_search_form(); ?>
 				</div>
 			</div>
 		</div>

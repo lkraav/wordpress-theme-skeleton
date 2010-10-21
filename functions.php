@@ -1,18 +1,18 @@
 <?php 
-// Saftey first.
-if (!empty($_SERVER['SCRIPT_FILENAME']) && 'functions.php' == basename($_SERVER['SCRIPT_FILENAME']))
-die ('Please do not load this page directly, Hassan!');
+	// Saftey first.
+	if (!empty($_SERVER['SCRIPT_FILENAME']) && 'functions.php' == basename($_SERVER['SCRIPT_FILENAME']))
+	die ('Please do not load this page directly, Hassan!');
 
-// Plug it
-header('X-Powered-By: Semantics are everything. me@kennethreitz.com for more info.');
+	// Plug it
+	header('X-Powered-By: Semantics are everything. me@kennethreitz.com for more info.');
 
-// Add awesome brower classes to body tag
-add_filter('body_class','browser_body_class');
-function browser_body_class($classes) {
-	global $is_lynx, $is_gecko, $is_IE, $is_opera, $is_NS4, $is_safari, $is_chrome, $is_iphone;
+	// Add awesome brower classes to body tag
+	add_filter('body_class','browser_body_class');
+	function browser_body_class($classes) {
+		global $is_lynx, $is_gecko, $is_IE, $is_opera, $is_NS4, $is_safari, $is_chrome, $is_iphone;
 
-	if($is_lynx) $classes[] = 'lynx';
-	elseif($is_gecko) $classes[] = 'gecko';
+		if($is_lynx) $classes[] = 'lynx';
+		elseif($is_gecko) $classes[] = 'gecko';
 	elseif($is_opera) $classes[] = 'opera';
 	elseif($is_NS4) $classes[] = 'ns4';
 	elseif($is_safari) $classes[] = 'safari';
@@ -38,10 +38,6 @@ function custom_logo() { ?>
 
 add_action('login_head', 'custom_logo');
 
-
-
-
-
-
-
-
+if (function_exists('add_theme_support')) {
+	add_theme_support('menus');
+}
