@@ -94,6 +94,7 @@ body {
 
 input#submit {
 	vertical-align: top;
+	margin: 4px 0;
 }
 
 input#search {
@@ -106,6 +107,12 @@ input#search {
 
 #content {
 	min-height: 374px;
+}
+
+.post-title {
+	font-family: serif;
+	font-size: 1.6em;
+	margin: .67em 0;
 }
 
 #footer {
