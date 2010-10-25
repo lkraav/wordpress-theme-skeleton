@@ -72,5 +72,13 @@
 				</div>
 			</div>
 		</div>
+		<div class="breadcrumb">
+		<?php
+		if(function_exists('bcn_display'))
+		{
+			bcn_display();
+		}
+		?>
+		</div>
 		<div id="content">
 			<?php // Content ?>
