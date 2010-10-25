@@ -58,7 +58,7 @@
 				)); ?>
 			</div>
 			<div id="header-banner">
-				<p>Eye ist ein banner, jawohl? 727x128</p>
+				<a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_directory'); ?>/img/banner.gif" /></a>
 			</div>
 			<div id="main-nav">
 				<?php wp_nav_menu(array(
