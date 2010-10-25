@@ -1,4 +1,4 @@
-<?php /* Template Name: Single*/ ?>
+<?php /* Template Name: Single */ ?>
 
 <?php get_header(); ?>
 
