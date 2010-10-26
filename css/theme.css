@@ -119,6 +119,22 @@ input#search {
 	margin: .67em 0;
 }
 
+.post-datum {
+	text-transform: uppercase;
+	font-size: small;
+	font-weight: bold;
+}
+
+.post-footer {
+	text-transform: uppercase;
+	font-size: small;
+}
+
+.blogicons, .avatar {
+	vertical-align: middle;
+	margin: 0.5em;
+}
+
 .meat p {
 	margin: 1.12em 0;
 }

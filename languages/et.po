@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Stereotunnel-B Wordpress theme\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-26 15:45+0200\n"
-"PO-Revision-Date: 2010-10-26 16:29+0200\n"
+"POT-Creation-Date: 2010-10-26 23:23+0200\n"
+"PO-Revision-Date: 2010-10-26 23:23+0200\n"
 "Last-Translator: lkraav <leho@kraav.com>\n"
 "Language-Team: DR-IS <leho@kraav.com>\n"
 "MIME-Version: 1.0\n"
@@ -20,23 +20,25 @@ msgstr ""
 #: L:\htdocs\secure\wordpress-dev\wp-content\themes\stereotunnel.git/page.php:15
 #: L:\htdocs\secure\wordpress-dev\wp-content\themes\stereotunnel.git/index.php:15
 msgid "0 Comments"
-msgstr ""
+msgstr "Kommentaarid puuduvad"
 
 #: L:\htdocs\secure\wordpress-dev\wp-content\themes\stereotunnel.git/page.php:15
 #: L:\htdocs\secure\wordpress-dev\wp-content\themes\stereotunnel.git/index.php:15
 msgid "1 Comment"
-msgstr ""
+msgstr "1 kommentaar"
 
 #: L:\htdocs\secure\wordpress-dev\wp-content\themes\stereotunnel.git/page.php:15
 #: L:\htdocs\secure\wordpress-dev\wp-content\themes\stereotunnel.git/index.php:15
 msgid "% Comments"
-msgstr ""
+msgstr "% kommentaari"
 
 #: L:\htdocs\secure\wordpress-dev\wp-content\themes\stereotunnel.git/index.php:14
-msgid "Last Updated:"
-msgstr "Viimati kirjutas:"
+msgid "Written by:"
+msgstr "Autor:"
 
-#: L:\htdocs\secure\wordpress-dev\wp-content\themes\stereotunnel.git/index.php:14
-msgid "on"
-msgstr ""
+#: L:\htdocs\secure\wordpress-dev\wp-content\themes\stereotunnel.git/index.php:16
+msgid "Edit"
+msgstr "Muuda"
 
+#~ msgid "Last Updated:"
+#~ msgstr "Viimati kirjutas:"
