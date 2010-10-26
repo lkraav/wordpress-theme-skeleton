@@ -139,6 +139,10 @@ input#search {
 	margin: 1.12em 0;
 }
 
+#comments {
+	margin-top: 12px;	
+}
+
 #footer {
 	height: 160px;
 	border-top: 1px grey ridge;
