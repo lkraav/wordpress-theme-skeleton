@@ -1,4 +1,11 @@
 <?php 
+/**
+ * TwentyTen functions and definitions
+ *
+ * @package WordPress
+ * @subpackage Stereotunnel
+ * @since Stereotunnel 1.0
+ */
 // Saftey first.
 if (!empty($_SERVER['SCRIPT_FILENAME']) && 'functions.php' == basename($_SERVER['SCRIPT_FILENAME']))
 die ('Please do not load this page directly, Hassan!');
@@ -38,6 +45,24 @@ function custom_logo() { ?>
 
 add_action('login_head', 'custom_logo');
 
+/**
+ * Sets up theme defaults and registers support for various WordPress features.
+ *
+ * @uses add_theme_support() To add support for nav menus.
+ * @uses load_theme_textdomain() For translation/localization support.
+ *
+ * @since Stereotunnel 1.0
+ */
+
 if (function_exists('add_theme_support')) {
 	add_theme_support('menus');
 }
+
+// Make theme available for translation
+// Translations can be filed in the /languages/ directory
+load_theme_textdomain('stereotunnel', TEMPLATEPATH . '/languages');
+
+$locale = get_locale();
+$locale_file = TEMPLATEPATH."/languages/$locale.php";
+if ( is_readable( $locale_file ) )
+	require_once( $locale_file );
