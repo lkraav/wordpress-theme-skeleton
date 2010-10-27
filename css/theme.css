@@ -4,7 +4,7 @@ body {
 
 .container {
 	margin: 10px auto;
-	width: 950px;
+	width: 890px;
 }
 
 #header {
@@ -20,8 +20,9 @@ body {
 #header-banner {
 	float: left;
 	padding: 0 20px;
-	width: 727px;
+	width: 667px;
 	height: 128px;
+	overflow: hidden;
 }
 
 #header-extbuttons {
@@ -70,7 +71,7 @@ body {
 
 #menu-mainnav li a {
 	float: left;
-	width: 121px;
+	width: 111px;
 	height: 20px;
 	padding: 14px 0;
 	text-align: center;
@@ -161,7 +162,7 @@ input#search {
 
 .footer-nav-list li a {
 	float: left;
-	width: 310px;
+	width: 290px;
 	height: 20px;
 	padding: 5px 0;
 	text-align: center;
