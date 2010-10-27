@@ -89,10 +89,11 @@ body {
 
 #nav-search {
 	float: left;
-	width: 200px;
+	width: 194px;
 	height: 32px;
 	margin: 18px 0;
 	margin-left: 22px;
+	padding-left: 6px;
 	border: 1px solid black;
 }
 
