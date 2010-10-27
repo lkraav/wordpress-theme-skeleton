@@ -159,17 +159,22 @@ h3#reply-title {
 #respond .required {
 	color: #ff4b33;
 	font-weight: bold;
+	float: left;
 }
 #respond label {
+	display: block;
+	float: left;
 	color: #888;
 	font-size: 12px;
 }
 #respond input {
+	display: block;
 	margin: 0 0 9px;
-	width: 98%;
+	width: 40%;
+	clear: left;
 }
 #respond textarea {
-	width: 98%;
+	width: 40%;
 }
 #respond .form-allowed-tags {
 	color: #888;
@@ -185,4 +190,9 @@ h3#reply-title {
 #respond .form-submit input {
 	font-size: 14px;
 	width: auto;
+}
+
+/* Stereotunnel customization */
+#respond .comment-form-comment {
+	float: right;
 }
