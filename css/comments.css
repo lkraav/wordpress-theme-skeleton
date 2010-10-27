@@ -129,6 +129,7 @@ input[type=submit] {
 	margin: 24px 0;
 	overflow: hidden;
 	position: relative;
+	width: 100%;
 }
 #respond p {
 	margin: 0;
@@ -159,27 +160,27 @@ h3#reply-title {
 #respond .required {
 	color: #ff4b33;
 	font-weight: bold;
-	float: left;
+	display: inline;
 }
 #respond label {
-	display: block;
-	float: left;
 	color: #888;
 	font-size: 12px;
+	width: auto;
 }
 #respond input {
+	clear: left;
 	display: block;
 	margin: 0 0 9px;
-	width: 40%;
-	clear: left;
+	width: 98%;
 }
 #respond textarea {
-	width: 40%;
+	width: 98%;
 }
 #respond .form-allowed-tags {
 	color: #888;
 	font-size: 12px;
 	line-height: 18px;
+	float: left;
 }
 #respond .form-allowed-tags code {
 	font-size: 11px;
@@ -193,6 +194,15 @@ h3#reply-title {
 }
 
 /* Stereotunnel customization */
+#respond .comment-form-author, #respond .comment-form-email, #respond .comment-form-url {
+	width: 39%;
+	clear: left;
+	float: left;
+}
+#respond .comment-form-comment label {
+	display: inline;
+}
 #respond .comment-form-comment {
+	width: 49%;
 	float: right;
 }
