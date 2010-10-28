@@ -180,6 +180,7 @@ h3#reply-title {
 	color: #888;
 	font-size: 12px;
 	line-height: 18px;
+	padding-left: 44%;
 	float: left;
 }
 #respond .form-allowed-tags code {
@@ -199,10 +200,7 @@ h3#reply-title {
 	clear: left;
 	float: left;
 }
-#respond .comment-form-comment label {
-	display: inline;
-}
 #respond .comment-form-comment {
-	width: 49%;
-	float: right;
+	padding-left: 44%;
+	width: 54%;
 }
