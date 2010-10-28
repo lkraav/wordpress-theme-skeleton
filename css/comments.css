@@ -206,11 +206,11 @@ h3#reply-title {
 }
 .logged-in #respond .comment-form-comment {
 	padding-left: 0;
-	width: 54%;
+	width: 98%;
 }
 .logged-in #respond .form-allowed-tags {
 	padding-left: 0;
-	width: 54%;
+	width: 98%;
 }
 .logged-in #respond .comment-form-comment label {
 	display: none;
