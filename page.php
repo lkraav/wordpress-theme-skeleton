@@ -21,9 +21,7 @@
 	</p>	
 	
 	<?php if(comments_open()): ?>
-		<div id="comments">
-			<?php comments_template(); ?>
-		</div>
+		<?php comments_template(); ?>
 	<?php endif; ?>
 
 <?php endwhile; endif; get_footer(); ?>
