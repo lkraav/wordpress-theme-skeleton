@@ -7,9 +7,8 @@
 					'menu_class' => 'footer-nav-list',
 					'depth' => 1
 				)); ?>
-				<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Ffacebook.com%2FStereoTunnel&amp;width=292&amp;colorscheme=light&amp;connections=10&amp;stream=false&amp;header=true&amp;height=290" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:292px; height:290px;" allowTransparency="true"></iframe>
 			</div>
-			<?php // Footer ?>
+			<?php get_sidebar(); ?>
 		</div>
 	</div> <!-- container -->
 	<div class="hide">

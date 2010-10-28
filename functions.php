@@ -120,3 +120,30 @@ function twentyten_comment( $comment, $args, $depth ) {
 	endswitch;
 }
 endif;
+/**
+ * Register widgetized areas.
+ *
+ * @since Stereotunnel-B 1.0
+ * @uses register_sidebar
+*/
+// Area 1, located in the footer. Empty by default.
+register_sidebar( array(
+	'name' => __( 'First Footer Widget Area', 'stereotunnel' ),
+	'id' => 'first-footer-widget-area',
+	'description' => __( 'The first footer widget area', 'stereotunnel' ),
+	'before_widget' => '<li id="%1$s" class="widget-container %2$s">',
+	'after_widget' => '</li>',
+	'before_title' => '<h3 class="widget-title">',
+	'after_title' => '</h3>',
+) );
+
+// Area 2, located in the footer. Empty by default.
+register_sidebar( array(
+	'name' => __( 'Second Footer Widget Area', 'stereotunnel' ),
+	'id' => 'second-footer-widget-area',
+	'description' => __( 'The second footer widget area', 'stereotunnel' ),
+	'before_widget' => '<li id="%1$s" class="widget-container %2$s">',
+	'after_widget' => '</li>',
+	'before_title' => '<h3 class="widget-title">',
+	'after_title' => '</h3>',
+) );
