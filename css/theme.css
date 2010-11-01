@@ -2,6 +2,25 @@ body {
 	font-family: sans-serif;
 }
 
+h1 {
+	font-size: 2em;
+	margin: .67em 0;
+}
+
+h2 {
+	font-size: 1.5em;
+	margin: .75em 0;
+}
+
+h3 {
+	font-size: 1.17em;
+	margin: .83em 0;
+}
+
+h4 {
+	margin: 1.12em 0;
+}
+
 strong {
 	font-weight: bolder;
 }
@@ -178,6 +197,14 @@ input#search {
 
 .meat p {
 	margin: 1.12em 0;
+}
+
+/* Rent (id=20) */
+
+.page-id-20 td {
+	padding: 12px 0 !important;
+	border-top: 1px black ridge;
+	vertical-align: top;
 }
 
 #comments {
