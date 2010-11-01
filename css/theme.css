@@ -161,16 +161,16 @@ input#search {
 	padding: 20px 0;
 }
 
-.footer-nav-list {
+.footer-nav {
 	margin-right: 10px;
 	float: left;
 	list-style-type: none;
 }
 
-.footer-nav-list li {
+.footer-nav li {
 }
 
-.footer-nav-list li a {
+.footer-nav li a {
 	float: left;
 	width: 270px;
 	height: 20px;
@@ -181,7 +181,7 @@ input#search {
 	color: #5ecad2;
 }
 
-.footer-nav-list li a:hover {
+.footer-nav li a:hover {
 	color: black;
 	text-decoration: underline;
 }

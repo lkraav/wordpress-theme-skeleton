@@ -25,7 +25,7 @@
 
 <?php if ( is_active_sidebar( 'first-footer-widget-area' ) ) : ?>
 				<div id="first" class="widget-area">
-					<ul class="footer-nav-list">
+					<ul class="footer-nav">
 						<?php dynamic_sidebar( 'first-footer-widget-area' ); ?>
 					</ul>
 				</div><!-- #first .widget-area -->
@@ -33,7 +33,7 @@
 
 <?php if ( is_active_sidebar( 'second-footer-widget-area' ) ) : ?>
 				<div id="second" class="widget-area">
-					<ul class="footer-nav-list">
+					<ul class="footer-nav">
 						<?php dynamic_sidebar( 'second-footer-widget-area' ); ?>
 					</ul>
 				</div><!-- #second .widget-area -->

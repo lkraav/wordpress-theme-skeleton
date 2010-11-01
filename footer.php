@@ -1,10 +1,10 @@
 		</div> <!-- content -->
 		<div id="footer">
-			<div id="footer-nav">
+			<div id="footer-nav-list">
 				<?php wp_nav_menu(array(
 					'container' => '',
 					'menu' => 'FooterNav1',
-					'menu_class' => 'footer-nav-list',
+					'menu_class' => 'footer-nav',
 					'depth' => 1
 				)); ?>
 			</div>
