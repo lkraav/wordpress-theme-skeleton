@@ -124,6 +124,29 @@ input#search {
 	margin-left: 40px;
 }
 
+#content .artist-nav {
+	margin: 0 10px;
+	list-style-type: none;
+}
+
+#content .artist-nav li {
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+
+#content .artist-nav li a {
+	margin: 0;
+	padding: 0;
+}
+
+#content .artist-nav img {
+	margin: 0;
+	padding: 0;
+	width: 280px;
+}
+
+
 .post-title {
 	font-family: serif;
 	font-size: 1.6em;
