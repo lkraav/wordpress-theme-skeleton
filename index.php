@@ -12,9 +12,9 @@
 	</div>
 
 	<p class="post-footer">
-		<em><?php _e('Written by:', 'stereotunnel') ?><?php echo get_avatar(get_the_author_meta('user_email'), $size = '32'); ?><?php the_author(); ?></em>
-		<img class="blogicons" src="<?php echo get_bloginfo('template_directory'); ?>/img/icon-comment.png" alt="Comments" /><?php comments_popup_link(__('0 Comments', 'stereotunnel'), __('1 Comment', 'stereotunnel'), __('% Comments', 'stereotunnel')); ?>
-		<?php edit_post_link(__('Edit', 'stereotunnel'), '<img class="blogicons" src="'.get_bloginfo('template_directory').'/img/icon-edit.png" alt="'.__('Edit', 'stereotunnel').'" /><em>', '</em>'); ?>
+		<em><?php _e('Author:') ?><?php echo get_avatar(get_the_author_meta('user_email'), $size = '32'); ?><?php the_author(); ?></em>
+		<img class="blogicons" src="<?php echo get_bloginfo('template_directory'); ?>/img/icon-comment.png" alt="Comments" /><?php comments_popup_link(__('No Comments'), __('1 Comment'), __('% Comments')); ?>
+		<?php edit_post_link(__('Edit'), '<img class="blogicons" src="'.get_bloginfo('template_directory').'/img/icon-edit.png" alt="'.__('Edit').'" /><em>', '</em>'); ?>
 	</p>
 	<p class="post-footer">
 		<em><?php the_tags(); ?></em>

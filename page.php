@@ -11,11 +11,11 @@
 	</div>
 
 	<p class="post-footer">
-		<em><?php _e('Written by:', 'stereotunnel') ?><?php echo get_avatar(get_the_author_meta('user_email'), $size = '32'); ?><?php the_author(); ?></em>
-		<img class="blogicons" src="<?php echo get_bloginfo('template_directory'); ?>/img/icon-comment.png" alt="Comments" /><?php comments_popup_link(__('0 Comments', 'stereotunnel'), __('1 Comment', 'stereotunnel'), __('% Comments', 'stereotunnel')); ?>
-		<?php edit_post_link(__('Edit', 'stereotunnel'), '<img class="blogicons" src="'.get_bloginfo('template_directory').'/img/icon-edit.png" alt="'.__('Edit', 'stereotunnel').'" /><em>', '</em>'); ?>
+		<em><?php _e('Author:') ?><?php echo get_avatar(get_the_author_meta('user_email'), $size = '32'); ?><?php the_author(); ?></em>
+		<img class="blogicons" src="<?php echo get_bloginfo('template_directory'); ?>/img/icon-comment.png" alt="Comments" /><?php comments_popup_link(__('No Comments'), __('1 Comment'), __('% Comments')); ?>
+		<?php edit_post_link(__('Edit'), '<img class="blogicons" src="'.get_bloginfo('template_directory').'/img/icon-edit.png" alt="'.__('Edit').'" /><em>', '</em>'); ?>
 	</p>
-	<div class="post-datum"><span class="post-footer"><?php _e('Last edited:', 'stereotunnel') ?></span> <?php the_modified_time('d.m.y', display); ?>, <?php the_time('G:i'); ?></div>
+	<div class="post-datum"><span class="post-footer"><?php printf(__('Last edited by %1$s on %2$s at %3$s'), get_the_author(), get_the_modified_time('d.m.y'), get_the_modified_time('G:i')) ?></span></div>
 	<p class="post-footer">
 		<em><?php the_tags(); ?></em>
 	</p>	
