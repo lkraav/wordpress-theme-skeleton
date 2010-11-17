@@ -187,6 +187,7 @@ input#search {
 	font-family: serif;
 	font-size: 1.6em;
 	margin: .67em 0;
+	text-decoration: underline;
 }
 
 .post-datum {
