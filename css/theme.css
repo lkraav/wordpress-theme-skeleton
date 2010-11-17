@@ -25,6 +25,16 @@ strong {
 	font-weight: bolder;
 }
 
+a:link {
+	color: #9f772b;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #4f3b16;
+	text-decoration: none;
+}
+
 .alignright {
 	float: right;
 }
