@@ -21,8 +21,8 @@
 				)); ?>
 			</div>
 			<?php get_sidebar(); ?>
+			<p class="copyright">(c) MTÜ Stereo-tunnel 2010</p>
 		</div>
-		<p class="copyright">(c) MTÜ Stereo-tunnel 2010</p>
 	</div> <!-- container -->
 	<div class="hide">
 	<?php wp_footer(); ?>

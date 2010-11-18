@@ -239,7 +239,7 @@ input#search {
 
 .footer-nav li a {
 	float: left;
-	width: 290px;
+	width: 150px;
 	height: 20px;
 	padding: 5px 0;
 	text-align: center;
@@ -253,7 +253,7 @@ input#search {
 }
 
 #footer-widget-area .widget-area {
-	width: 290px;
+	width: 150px;
 	float: left;
 }
 
@@ -266,7 +266,8 @@ input#search {
 }
 
 .copyright {
-	width: 100%;
-	text-align: center;
+	height: 20px;
+	padding: 5px 0;
+	text-align: right;
 	color: #9f772b;
 }
