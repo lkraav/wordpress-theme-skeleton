@@ -213,7 +213,7 @@ input#search {
 
 /* Rent (id=20) */
 
-.page-id-20 td {
+.page-id-20 td, .parent-pageid-20 td {
 	padding: 12px 0 !important;
 	border-top: 1px black ridge;
 	vertical-align: top;
